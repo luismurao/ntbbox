@@ -1,6 +1,6 @@
 # NicheToolBox
 
-<span style="color:blue">`ntbbox`</span> is the the ligth version of `nichetoolbox`. The aim of this package is to provide the base functions of behaind the Graphical User Interface (GUI) of [`ntbox`](https://github.com/luismurao/ntbox).
+<span style="color:blue">`ntbbox`</span> is the the ligth version of `nichetoolbox`. The aim of this package is to provide the base functions of behaind the Graphical User Interface (GUI) of <span style="color:red">[`ntbox`](https://github.com/luismurao/ntbox)</span>.
 
 # Installation
 

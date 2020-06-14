@@ -8,7 +8,6 @@
 #' @return A data.frame with 2 columns. The first "in_Ellipsoid" binary response with values 1 (inside the ellipsoid) and zeros (outside the ellipsoid); the second "mh_dist" Mahalanobis distance to centroid.
 #' @export
 #' @examples
-#' \dontrun{
 #' # Bioclimatic layers path
 #' wcpath <- list.files(system.file("extdata/rasters/bios",
 #'                                 package = "ntbbox"),
@@ -36,9 +35,9 @@
 #'                                                 "bio12")],
 #'                         centroid = pg_ellip$centroid,
 #'                         eShape=pg_ellip$covariance,
-#'                         level = 0.99)
+#'                         level = 0.95)
+#' head(inErdata)
 #'
-#' }
 inEllipsoid <- function(centroid,eShape,env_data,level){
 
   mh_dist <- stats::mahalanobis(env_data,
