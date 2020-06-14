@@ -22,7 +22,6 @@ A data.frame with 2 columns. The first "in_Ellipsoid" binary response with value
 Determine if a point is inside or outside an ellipsoid.
 }
 \examples{
-\dontrun{
 # Bioclimatic layers path
 wcpath <- list.files(system.file("extdata/rasters/bios",
                                 package = "ntbbox"),
@@ -50,7 +49,7 @@ inErdata <- inEllipsoid(env_data = env_rdata[,c("bio05",
                                                 "bio12")],
                         centroid = pg_ellip$centroid,
                         eShape=pg_ellip$covariance,
-                        level = 0.99)
+                        level = 0.95)
+head(inErdata)
 
-}
 }

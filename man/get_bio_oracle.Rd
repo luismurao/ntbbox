@@ -57,8 +57,8 @@ swater_temp_2100_AOGCM_rcp85 <- get_bio_oracle(period = "2100",
 }
 \references{
 Assis, J., Tyberghein, L., Bosh, S., Verbruggen, H., Serrao, E. A.,
- & De Clerck, O. (2017). Bio-ORACLE v2.0: Extending marine data layers for
- bioclimatic modelling. Global Ecology and Biogeography.
+& De Clerck, O. (2017). Bio-ORACLE v2.0: Extending marine data layers for
+bioclimatic modelling. Global Ecology and Biogeography.
 }
 \seealso{
 \code{\link[ntbbox]{get_envirem_elev}}, \code{\link[ntbbox]{get_envirem_clim}},

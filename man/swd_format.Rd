@@ -40,7 +40,7 @@ is  that the program doesn’t need to look in the environmental layers
 to obtain values for the variables at the sample points or the background points.
 each time that you call maxent (see \code{\link[ntbbox]{maxent_call}}).
 One of the main advantages is that MaxEnt runs much faster see section SWD Format here
- \url{https://biodiversityinformatics.amnh.org/open_source/maxent/Maxent_tutorial2017.pdf}
+\url{https://biodiversityinformatics.amnh.org/open_source/maxent/Maxent_tutorial2017.pdf}
 for details.
 }
 \examples{
